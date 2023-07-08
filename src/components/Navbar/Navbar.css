@@ -1,0 +1,124 @@
+.navbar__component{
+    width: 100vw;
+    height: 75px;
+    background-color: #131921;
+    display: flex;
+}
+
+.navbar__logo{
+    background: url('https://ik.imagekit.io/cl0ne/amazon-image/amazon-image/sprite.png?updatedAt=1686377015630') no-repeat -20px -180px;
+	width: 152px;
+	height: 46px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.navbar__location{
+    color: white;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+
+.navbar__locationImage{
+	background: url('https://ik.imagekit.io/cl0ne/amazon-image/amazon-image/sprite.png?updatedAt=1686377015630') no-repeat -142px -758px;
+	width: 29px;
+	height: 33px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-left: 18px;
+
+}
+
+.navbar__locator{
+    display: flex;
+}
+
+.navbar__searchComponent{
+    display: flex;
+}
+
+.navbar__searchDropdown{
+    margin-left: 5px;
+    margin-top: 15px;
+    height: 43px;
+    border-radius: 5px 0px 0px 5px; 
+    background-color: #F3F3F3;
+    text-align-last: center;
+}
+
+.navbar__searchbox{
+    margin-top: 14px;
+    height: 40px;
+    width: 600px;
+}
+
+.navbar__searchBoxDiv {
+    background-color: #FEBE68;
+    height: 44px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 15px;
+
+}
+
+.navbar__searchIcon{
+    background: url('https://ik.imagekit.io/cl0ne/amazon-image/amazon-image/sprite.png?updatedAt=1686377015630') no-repeat -20px -580px;
+    width: 48px;
+	height: 48px;
+    margin: 2px;
+}
+
+.navbar__signIn{
+    color: #F3F3F3;
+    width: 120px;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.navbar__returns{
+    color: #F3F3F3;
+    width: 80px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+
+.navbar__cart{
+    color: #F3F3F3;
+    margin-top: 11px;
+    margin-left: 15px;
+    display: flex;
+}
+
+.navbar__cartText{
+    margin-top: 20px;
+}
+
+.navbar__cartIcon{
+    background: url('https://ik.imagekit.io/cl0ne/amazon-image/amazon-image/sprite_350x.png?updatedAt=1686377015576') no-repeat -217px -336px;
+    width: 40px;
+	height: 28px;
+    margin-top: 6px;
+}
+
+.navbar__cartCount{
+    font-weight: bold;
+    position: relative;
+    left: -20px;
+    color: #FEBE68;
+}
+
+.navbar__footer{
+    width: 100vw;
+    height: 30px;
+    background-color: #232F3E;
+    color: #F3F3F3;
+    display: flex;
+}
+
+.navbar__footer__text{
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
